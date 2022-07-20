@@ -21,6 +21,10 @@ const LogoBox = styled.span`
 const LogoMargin = styled.span`
   margin-right: 10px;
   margin-top: 2px;
+  transition: 200ms ease;
+  &:hover {
+    transform: rotate(20deg);
+  }
 `
 
 const Logo = () => {
@@ -31,7 +35,7 @@ const Logo = () => {
       <a>
         <LogoBox>
           <LogoMargin>
-            <Image src={codeIcon} width={20} height={20} alt="logo" />
+            <BsCodeSlash />
           </LogoMargin>
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}

@@ -13,8 +13,14 @@ import {
   chakra
 } from '@chakra-ui/react'
 import Image from 'next/image'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
-const Page = () => {
+
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+})
+
+const Home = () => {
   return (
     <Container>
       <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
@@ -44,6 +50,13 @@ const Page = () => {
             borderRadius="full"
             overflow="hidden"
           >
+            <ProfileImage
+              src="/images/rafath.png"
+              alt="Profile image"
+              borderRadius="full"
+              width="100%"
+              height="100%"
+            />
 
           </Box>
         </Box>
@@ -52,4 +65,6 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Home
+
+// export { getServerSideProps } from '../components/chakra'
