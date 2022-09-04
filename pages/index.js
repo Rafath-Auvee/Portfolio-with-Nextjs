@@ -106,6 +106,10 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
+          Participated in ICT Olympiad in 3rd AUW MATH & ICT FEST 2017 at AUW
+        </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
           Placed 3rd in Outsbook Inter School and College Programming Contest
           (College Level).
         </BioSection>
@@ -118,9 +122,17 @@ const Home = () => (
           Participated in Dhaka Regional ACM ICPC
         </BioSection>
         <BioSection>
-          <BioYear>2019 to present</BioYear>
+          <BioYear>2019 - Present </BioYear>
           Currently Final Year Student & Pursueing my Bachelor&apos;s in
           Computer Science & Engineering (Expected Graduation in 2023)
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Robo Soccer at AUST Mind spark
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          General Secretary at BAUST Mechatronics and Robotics Club.
         </BioSection>
       </Section>
 
@@ -133,7 +145,7 @@ const Home = () => (
           <Link href="https://auvee.itch.io/trass" target="_blank">
             Making Video Games
           </Link>
-          , Blockchain, , Machine Learning
+          , Machine Learning, Problem solving
         </Paragraph>
       </Section>
 
@@ -204,14 +216,14 @@ const Home = () => (
             My Linkedin
           </GridItem>
         </SimpleGrid>
-
+{/* 
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
     </Container>
   </Layout>

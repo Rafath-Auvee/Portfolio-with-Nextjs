@@ -3,60 +3,51 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+
 import Marley from "../public/images/works/me.png"
+import Chat from "../public/images/works/chat.png"
+import Paratronics from "../public/images/works/mern2.png"
 const Works = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Full Stack Projects
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="marley-electronics" title="marley-electronics" thumbnail={Marley}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="marley-electronics" title="Marley Electronics" thumbnail={Marley}>
+            E-commerce website where user can buy products through Stripe. And Admins can make a user an admin or remove them.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="Paratronics-Warehouse"
+            title="Paratronics Warehouse"
+            thumbnail={Paratronics}
           >
-            Music recommendation app for iOS
+            Full stack inventory website where we used to keep records of our products and suppliers can request for product and order.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="BMRC"
+            title="BMRC (Beta)"
+            thumbnail={Chat}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Chat Application for Robotics Club where users can have different roles and can chat with there fellow club members. 
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
@@ -116,7 +107,7 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )

@@ -12,10 +12,10 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="BMRC">
     <Container>
       <Title>
-        Inkdrop <Badge>2016-</Badge>
+        BMRC <Badge>-Development</Badge>
       </Title>
       <P>
         A Markdown note-taking app with 100+ plugins, cross-platform and

@@ -12,13 +12,13 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Marley Electronics">
+  <Layout title="Inkdrop">
     <Container>
       <Title>
-      Marley Electronics<Badge>-2022</Badge>
+      Paratronics Warehouse Solution<Badge>-2022</Badge>
       </Title>
       <P>
-      Made with React, React Router, DaisyUI, Node.js, Express, MongoDB, Firebase Authentication. User can sign in / sign up and can order for product. Also secure payment system implemented with stripe. Admin can make admin any user, track order.
+      Inventory Website Full stack website where we used to keep records of our products and suppliers can request for product and order. Fully dynamic made with React, React Router, MongoDB, Express, Bootstrap, Tailwind CSS, Node.js, Firebase Authentication. User can decrement the order quantity or increase vice versa and also add, delete and update product.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -33,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, React, MongoDB, Stripe</span>
+          <span>Firebase Authentication, React, MongoDB, Node.js, Express, Bootstrap, Tailwind CSS</span>
         </ListItem>
         <ListItem>
           {/* <Meta>Blogpost</Meta>
@@ -44,14 +44,13 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/marley1.png" alt="marley1" />
-      <WorkImage src="/images/works/marley2.png" alt="marley2" />
-      <WorkImage src="/images/works/marley3.png" alt="marley3" />
-      <WorkImage src="/images/works/marley4.png" alt="marley4" />
-      <WorkImage src="/images/works/marley5.png" alt="marley5" />
-      <WorkImage src="/images/works/marley6.png" alt="marley6" />
-      <WorkImage src="/images/works/marley7.png" alt="marley7" />
-      <WorkImage src="/images/works/marley8.png" alt="marley8" />
+      <WorkImage src="/images/works/paratronics1.png" alt="paratronics1" />
+      <WorkImage src="/images/works/paratronics2.png" alt="paratronics2" />
+      <WorkImage src="/images/works/paratronics3.png" alt="paratronics3" />
+      <WorkImage src="/images/works/paratronics4.png" alt="paratronics4" />
+      <WorkImage src="/images/works/paratronics5.png" alt="paratronics5" />
+      <WorkImage src="/images/works/paratronics6.png" alt="paratronics6" />
+      <WorkImage src="/images/works/paratronics7.png" alt="paratronics7" />
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/-qBavwqc_mY"
