@@ -86,7 +86,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <Link
-            href="https://drive.google.com/file/d/10cSdnYrtMm0fN8QsM_-WK49kjnsLCD-N/view?usp=sharing"
+            href="https://drive.google.com/file/d/1onoQvGgN3K8Rp3y5TLtIFCfMaTxQx18t/view?usp=sharing"
             target="_blank"
           >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
