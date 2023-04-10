@@ -17,11 +17,16 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoFacebook, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoFacebook,
+  IoLogoInstagram,
+  IoLogoGithub
+} from 'react-icons/io5'
 
 import Image from 'next/image'
-import MyYt from "../public/images/links/yt.jpg"
-import MyLinkedin from "../public/images/links/thumbLinkedin.png"
+import MyYt from '../public/images/links/yt.jpg'
+import MyLinkedin from '../public/images/links/thumbLinkedin.png'
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
@@ -37,7 +42,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an full stack developer based in Bangladesh!
+        Hello, I&apos;m an aspirant full stack developer based in Bangladesh!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -79,10 +84,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Rafath is a full-stack developer based in Chittagong, Bangladesh. I
-          build things for the web. I'm currently a final year student at
-          Bangladesh Army University of Science and Technology. pursuing a
-          degree in Computer Science and Engineering.
+          Rafath is an aspiring full-stack developer based in Chittagong,
+          Bangladesh. I have a passion for building things for the web and
+          recently completed my Bachelor's degree in Computer Science &
+          Engineering at Bangladesh Army University of Science and Technology.
         </Paragraph>
         <Box align="center" my={4}>
           <Link
@@ -101,7 +106,7 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2000</BioYear>
+          <BioYear>2000 - June</BioYear>
           Born in Chittagong, Bangladesh.
         </BioSection>
         <BioSection>
@@ -110,29 +115,35 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Placed 3rd in Outsbook Inter School and College Programming Contest
+          2nd Runner Up in Outsbook Inter School and College Programming Contest
           (College Level).
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Placed 2nd in Robotronics 2019 - Line Follower Robot (Speed Battle).
+          1st Runner Up in Robotronics 2019 - Line Follower Robot (Speed Battle)
+          at Ruet Robotronics.
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Participated in Dhaka Regional ACM ICPC
+          Participated in Dhaka Regional ACM ICPC 2019
         </BioSection>
-        <BioSection>
-          <BioYear>2019 - Present </BioYear>
-          Currently Final Year Student & Pursueing my Bachelor&apos;s in
-          Computer Science & Engineering (Expected Graduation in 2023)
-        </BioSection>
+
         <BioSection>
           <BioYear>2021</BioYear>
-          Robo Soccer at AUST Mind spark
+          Parcipated in the Robo Soccer segment at AUST Mindspark.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
           General Secretary at BAUST Mechatronics and Robotics Club.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 October - 2023 March</BioYear>
+          Jr Web Developer at Wrexa LLC
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Completed my Bachelor's degree&apos;s in Computer Science &
+          Engineering (Expected Graduation in 2023)
         </BioSection>
       </Section>
 
@@ -155,13 +166,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/Rafath-Bin-Zafar-Auvee" target="_blank">
+            <Link href="https://github.com/Rafath-Auvee" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @Rafath-Bin-Zafar-Auvee
+                @Rafath-Auvee
               </Button>
             </Link>
           </ListItem>
@@ -177,7 +188,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.facebook.com/rafathbinzafarauvee/" target="_blank">
+            <Link
+              href="https://www.facebook.com/rafathbinzafarauvee/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -188,7 +202,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/rafath_auvee/" target="_blank">
+            <Link
+              href="https://www.instagram.com/rafath_auvee/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -216,7 +233,7 @@ const Home = () => (
             My Linkedin
           </GridItem>
         </SimpleGrid>
-{/* 
+        {/* 
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
