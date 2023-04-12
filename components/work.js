@@ -7,9 +7,9 @@ export const Title = ({ children }) => (
     <NextLink href="/works" passHref>
       <Link>Works</Link>
     </NextLink>
+  
     <span>
-      {' '}
-      <ChevronRightIcon />{' '}
+      <ChevronRightIcon />
     </span>
     <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
       {children}
