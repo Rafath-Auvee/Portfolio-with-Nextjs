@@ -16,7 +16,7 @@ const Work = () => (
     <Container>
       <Title>
         Expense Tracker <Badge> - Monthly Expense Tracker</Badge>
-    </Title>
+      </Title>
       <P>Monthly Expense Tracker for Food, Rent, Income and Savings.</P>
       <List ml={4} my={4}>
         <ListItem>
@@ -39,7 +39,9 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS, Bootstrap, JavaScript Async/Await, DOM Manipulation</span>
+          <span>
+            HTML, CSS, Bootstrap, JavaScript Async/Await, DOM Manipulation
+          </span>
         </ListItem>
         <ListItem></ListItem>
       </List>

@@ -1,54 +1,60 @@
 import {
-    Container,
-    Badge,
-    Link,
-    List,
-    ListItem,
-    AspectRatio
-  } from '@chakra-ui/react'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, WorkImage, Meta } from '../../components/work'
-  import P from '../../components/paragraph'
-  import Layout from '../../components/layouts/article'
-  
-  const Work = () => (
-    <Layout title="BMRC">
-      <Container>
-        <Title>
-          Mission 2022 <Badge> - HTML CSS Landing Page</Badge>
-        </Title>
-        <P>
-          During Web Development Learning Phase I made Developer portfolio With
-          only HTML & CSS
-        </P>
-        <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://rafath-auvee.github.io/HTML-CSS-Landing-Page/">
-            https://rafath-auvee.github.io/HTML-CSS-Landing-Page/ <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Meta>Platform</Meta>
-            <span>Website</span>
-          </ListItem>
-          <ListItem>
-            <Meta>Stack</Meta>
-            <span>HTML, CSS</span>
-          </ListItem>
-          <ListItem>
-            {/* <Meta>Blogpost</Meta>
+  Container,
+  Badge,
+  Link,
+  List,
+  ListItem,
+  AspectRatio
+} from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
+import Layout from '../../components/layouts/article'
+
+const Work = () => (
+  <Layout title="BMRC">
+    <Container>
+      <Title>
+        Rest Countries <Badge> - ReactJS API Fetching</Badge>
+      </Title>
+      <P>Fetching 250 Countries using React useEffect</P>
+      <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Website</Meta>
+          <Link href="https://heuristic-fermat-2ed68f.netlify.app/">
+            Live Link <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/Rafath-Auvee/Country-List-with-React-and-Rest-Api">
+            Live Link <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Platform</Meta>
+          <span>Website</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Stack</Meta>
+          <span>Reactjs</span>
+        </ListItem>
+        <ListItem>
+          {/* <Meta>Blogpost</Meta>
               <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
                 How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
                 $5/mo <ExternalLinkIcon mx="2px" />
               </Link> */}
-          </ListItem>
-        </List>
-  
-        <WorkImage src="/Portofolio-Images/ReactJS/Rest-Countries/1.png" alt="chat1" />
-  
-  
-        {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
+        </ListItem>
+      </List>
+
+      <WorkImage
+        src="/Portofolio-Images/ReactJS/Rest-Countries/1.png"
+        alt="chat1"
+      />
+
+      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
             <iframe
               src="https://www.youtube.com/embed/-qBavwqc_mY"
               title="YouTube video player"
@@ -57,10 +63,9 @@ import {
               allowFullScreen
             ></iframe>
           </AspectRatio> */}
-      </Container>
-    </Layout>
-  )
-  
-  export default Work
-  export { getServerSideProps } from '../../components/chakra'
-  
+    </Container>
+  </Layout>
+)
+
+export default Work
+export { getServerSideProps } from '../../components/chakra'

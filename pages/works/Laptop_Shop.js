@@ -12,20 +12,25 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="BMRC">
+    <Layout title="Laptop Shop">
       <Container>
         <Title>
-          Mission 2022 <Badge> - HTML CSS Landing Page</Badge>
+        Laptop Shop <Badge> - Landing Page</Badge>
         </Title>
         <P>
-          During Web Development Learning Phase I made Developer portfolio With
-          only HTML & CSS
+          Laptop Shop is a place where you can see different laptop. Dark Mode, Swiper, Cursor Animation implemented.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://rafath-auvee.github.io/HTML-CSS-Landing-Page/">
-            https://rafath-auvee.github.io/HTML-CSS-Landing-Page/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://futuristic-technologies.web.app/">
+            Live Link <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Github</Meta>
+            <Link href="https://github.com/Rafath-Auvee/Foundation-Futuristic-Technologies-Landing-Page">
+            Repo Link <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -34,7 +39,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>HTML, CSS</span>
+            <span>ReactJS</span>
           </ListItem>
           <ListItem>
             {/* <Meta>Blogpost</Meta>
@@ -45,11 +50,15 @@ import {
           </ListItem>
         </List>
   
-        <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/1.png" alt="chat1" />
-        <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/2.png" alt="chat2" />
-        <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/3.png" alt="chat3" />
-        <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/4.png" alt="chat4" />
-        <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/5.png" alt="chat5" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/1.png" alt="chat1" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/2.png" alt="chat2" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/3.png" alt="chat3" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/4.png" alt="chat4" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/5.png" alt="chat5" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/6.png" alt="chat1" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/7.png" alt="chat2" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/8.png" alt="chat3" />
+        <WorkImage src="/Portofolio-Images/ReactJS/Laptop Shop/9.png" alt="chat4" />
   
   
         {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>

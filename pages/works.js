@@ -26,7 +26,9 @@ import Paradis_Medical_Store from '../public/Portofolio-Images/ReactJS/Paradis M
 import React_Search_Sort_Pagination_Find from '../public/Portofolio-Images/ReactJS/React Search Sort Pagination Find/1.png'
 import Rest_Countries from '../public/Portofolio-Images/ReactJS/Rest-Countries/1.png'
 
-import rafath_todo from "../public/Portofolio-Images/Full Stack/Rafath-Todo-with-Location/1.png"
+import rafath_todo from '../public/Portofolio-Images/Full Stack/Rafath-Todo-with-Location/1.png'
+
+import jobHunt from '../public/Portofolio-Images/React-Redux/JobHunt/1.png'
 
 const Works = () => {
   // const developer_porfolio = 'https://ibb.co/1J6jnXM'
@@ -38,6 +40,12 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem id="jobhunt" title="Job Hunt" thumbnail={jobHunt}>
+              Job Hunt is a place where employer post vacancy and applicant
+              apply for job
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="marley-electronics"
@@ -83,9 +91,13 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
-            <WorkGridItem id="Rafath_Todo" thumbnail={rafath_todo} title="Rafath Todo">
-              My Personal Todo Application With Location Finder where every time reveal your
-              location by doing CRUD operations.
+            <WorkGridItem
+              id="Rafath_Todo"
+              thumbnail={rafath_todo}
+              title="Rafath Todo"
+            >
+              My Personal Todo Application With Location Finder where every time
+              reveal your location by doing CRUD operations.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
@@ -94,7 +106,7 @@ const Works = () => {
           <Divider my={6} />
 
           <Heading as="h3" fontSize={20} mb={4}>
-            ReactJS
+            ReactJS (Learn by doing)
           </Heading>
         </Section>
 
@@ -251,7 +263,11 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
-            <WorkGridItem id="Mission_2022" thumbnail={mission} title="Mission 2022">
+            <WorkGridItem
+              id="Mission_2022"
+              thumbnail={mission}
+              title="Mission 2022"
+            >
               Landing Page in HTML & CSS
             </WorkGridItem>
           </Section>
