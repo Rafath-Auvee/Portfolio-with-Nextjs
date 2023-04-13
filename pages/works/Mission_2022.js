@@ -24,8 +24,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://bmrc.vercel.app/">
-            https://bmrc.vercel.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://rafath-auvee.github.io/HTML-CSS-Landing-Page/">
+          https://rafath-auvee.github.io/HTML-CSS-Landing-Page/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -45,9 +45,12 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/chat1.png" alt="chat1" />
-      <WorkImage src="/images/works/chat2.png" alt="chat2" />
-      <WorkImage src="/images/works/chat3.png" alt="chat3" />
+      <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/1.png" alt="chat1" />
+      <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/2.png" alt="chat2" />
+      <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/3.png" alt="chat3" />
+      <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/4.png" alt="chat4" />
+      <WorkImage src="/Portofolio-Images/HTML-CSS/mission 2022/5.png" alt="chat5" />
+
 
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe

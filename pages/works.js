@@ -184,7 +184,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
             <WorkGridItem
-              id="Monthly-Expense-Tracker"
+              id="expense_tracker"
               thumbnail={expense_tracker}
               title="Monthly Expense Tracker"
             >
@@ -194,7 +194,7 @@ const Works = () => {
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
-              id="Phone-Hunter"
+              id="Phone_Hunter"
               thumbnail={phone_hunter}
               title="Phone Hunter"
             >
@@ -214,7 +214,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
             <WorkGridItem
-              id="pichu2"
+              id="influener_gear"
               thumbnail={influener_gear}
               title="Influencer Gear"
             >
@@ -223,7 +223,7 @@ const Works = () => {
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
-              id="pichu2"
+              id="panda_commerce"
               thumbnail={panda_commerce}
               title="Panda Commerce"
             >
@@ -232,7 +232,7 @@ const Works = () => {
           </Section>
           <Section delay={0.5}>
             <WorkGridItem
-              id="pichu2"
+              id="convention_center"
               thumbnail={convention_center}
               title="Convention Center"
             >
@@ -251,7 +251,7 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
-            <WorkGridItem id="pichu2" thumbnail={mission} title="Mission 2022">
+            <WorkGridItem id="Mission_2022" thumbnail={mission} title="Mission 2022">
               Landing Page in HTML & CSS
             </WorkGridItem>
           </Section>
@@ -267,7 +267,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.5}>
             <WorkGridItem
-              id="html-porfolio"
+              id="html_porfolio"
               thumbnail={htmlLanding}
               title="HTML Porfolio"
             >
