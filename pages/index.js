@@ -91,7 +91,7 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <Link
-            href="https://drive.google.com/file/d/1onoQvGgN3K8Rp3y5TLtIFCfMaTxQx18t/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1rgRtmyvDgO_wDsildhGdCCXYfRwBps67?usp=sharing"
             target="_blank"
           >
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -136,10 +136,7 @@ const Home = () => (
           <BioYear>2022</BioYear>
           General Secretary at BAUST Mechatronics and Robotics Club.
         </BioSection>
-        <BioSection>
-          <BioYear>2022 October - 2023 March</BioYear>
-          Jr Web Developer at Wrexa LLC
-        </BioSection>
+
         <BioSection>
           <BioYear>2023</BioYear>
           Completed my Bachelor's degree&apos;s in Computer Science &
@@ -193,6 +190,31 @@ const Home = () => (
           <BioYear>Other Languages</BioYear>
           C++, Python
         </BioSection>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Experience
+        </Heading>
+        <BioSection>
+          {/* <BioYear>Wrexa LLC</BioYear> */}
+          <BioYear>2022 October - 2023 March</BioYear>
+          Jr Web Developer at Wrexa LLC
+        </BioSection>
+        {/* <BioSection>
+          <BioYear>2022 (September - October)</BioYear>
+          Intern Python Developer at Adorta
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 (August - September)</BioYear>
+          Web Developer at Sigma Tenant
+        </BioSection>
+      
+
+        <BioSection>
+          <BioYear>November 2016 - Present</BioYear>
+          Freelance Web Developer at Fiverr
+        </BioSection> */}
       </Section>
 
       <Section delay={0.3}>
