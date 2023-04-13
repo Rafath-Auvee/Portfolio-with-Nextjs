@@ -160,6 +160,41 @@ const Home = () => (
         </Paragraph>
       </Section>
 
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Skills
+        </Heading>
+        <BioSection>
+          <BioYear>Frontend</BioYear>
+          NextJS, ReactJS, HTML, CSS
+        </BioSection>
+
+        <BioSection>
+          <BioYear>Backend</BioYear>
+          Express.js, Node.js
+        </BioSection>
+        <BioSection>
+          <BioYear>Database</BioYear>
+          MongoDB, Firebase
+        </BioSection>
+        <BioSection>
+          <BioYear>Version Control</BioYear>
+          Github
+        </BioSection>
+        <BioSection>
+          <BioYear>UI</BioYear>
+          Material UI, SCSS, DaisyUI, TailwindCSS, Bootstrap
+        </BioSection>
+        <BioSection>
+          <BioYear>State Management</BioYear>
+          Redux
+        </BioSection>
+        <BioSection>
+          <BioYear>Other Languages</BioYear>
+          C++, Python
+        </BioSection>
+      </Section>
+
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web

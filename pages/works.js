@@ -46,6 +46,12 @@ const Works = () => {
               apply for job
             </WorkGridItem>
           </Section>
+          <Section delay={0.1}>
+            <WorkGridItem id="BMRC" title="BMRC (Beta)" thumbnail={Chat}>
+              Chat Application for Robotics Club where users can have different
+              roles and can chat with there fellow club members.
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="marley-electronics"
@@ -67,12 +73,6 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section delay={0.1}>
-            <WorkGridItem id="BMRC" title="BMRC (Beta)" thumbnail={Chat}>
-              Chat Application for Robotics Club where users can have different
-              roles and can chat with there fellow club members.
-            </WorkGridItem>
-          </Section>
           {/* <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
             An app that suggests ramen(noodle) shops based on a given photo of
