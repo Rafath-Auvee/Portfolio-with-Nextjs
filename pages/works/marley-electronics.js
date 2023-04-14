@@ -15,16 +15,32 @@ const Work = () => (
   <Layout title="Marley Electronics">
     <Container>
       <Title>
-      Marley Electronics<Badge>-2022</Badge>
+        Marley Electronics<Badge>-2022</Badge>
       </Title>
       <P>
-      Made with React, React Router, DaisyUI, Node.js, Express, MongoDB, Firebase Authentication. User can sign in / sign up and can order for product. Also secure payment system implemented with stripe. Admin can make admin any user, track order.
+        Made with React, React Router, DaisyUI, Node.js, Express, MongoDB,
+        Firebase Authentication. User can sign in / sign up and can order for
+        product. Also secure payment system implemented with stripe. Admin can
+        make admin any user, track order.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://marley-electronics.web.app/">
-          https://marley-electronics.web.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://marley-electronics-client.vercel.app/">
+            Live Link <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/Rafath-Auvee/Marley-Electronics-Client">
+            Client Repo
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/Rafath-Auvee/Marley-Server-">
+            Server Repo <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

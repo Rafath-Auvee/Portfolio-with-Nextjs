@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Paratronics Warehouse">
     <Container>
       <Title>
       Paratronics Warehouse Solution<Badge>-2022</Badge>
@@ -23,8 +23,20 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://marley-electronics.web.app/">
-          https://marley-electronics.web.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://paratronics-warehouse-solution-client.vercel.app/">
+          Live Link <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/Rafath-Auvee/Paratronics-Warehouse-Solution-Client">
+          Client Repo <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/Rafath-Auvee/Paratronics-Serverless">
+          Server Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
