@@ -158,9 +158,9 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Travelling, Kayaking,
+          Travelling, Kayaking,{" "}
           <Link href="https://auvee.itch.io/trass" target="_blank">
-            Making Video Games
+            Making Video Games{" "}
           </Link>
           ,Machine Learning, Problem solving
         </Paragraph>
