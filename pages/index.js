@@ -106,41 +106,50 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2000 - June</BioYear>
-          Born in Chittagong, Bangladesh.
+          <BioYear>2023</BioYear>
+          Joined Save The Date as Full Stack Web Developer
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
-          Participated in ICT Olympiad in 3rd AUW MATH & ICT FEST 2017 at AUW
+          <BioYear>2023</BioYear>
+          Completed my Bachelor's degree&apos;s in Computer Science &
+          Engineering (Expected Graduation in 2023)
         </BioSection>
-        <BioSection>
-          <BioYear>2017</BioYear>
-          2nd Runner Up in Outsbook Inter School and College Programming Contest
-          (College Level).
-        </BioSection>
+
         <BioSection>
           <BioYear>2019</BioYear>
           1st Runner Up in Robotronics 2019 - Line Follower Robot (Speed Battle)
           at Ruet Robotronics.
         </BioSection>
-        <BioSection>
-          <BioYear>2019</BioYear>
-          Participated in Dhaka Regional ACM ICPC 2019
-        </BioSection>
 
         <BioSection>
-          <BioYear>2021</BioYear>
-          Parcipated in the Robo Soccer segment at AUST Mindspark.
+          <BioYear>2017</BioYear>
+          2nd Runner Up in Outsbook Inter School and College Programming Contest
+          (College Level).
         </BioSection>
+
         <BioSection>
           <BioYear>2022</BioYear>
           General Secretary at BAUST Mechatronics and Robotics Club.
         </BioSection>
 
         <BioSection>
-          <BioYear>2023</BioYear>
-          Completed my Bachelor's degree&apos;s in Computer Science &
-          Engineering (Expected Graduation in 2023)
+          <BioYear>2021</BioYear>
+          Parcipated in the Robo Soccer segment at AUST Mindspark.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Participated in ICT Olympiad in 3rd AUW MATH & ICT FEST 2017 at AUW
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Participated in Dhaka Regional ACM ICPC 2019
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2000 - June</BioYear>
+          Born in Chittagong, Bangladesh.
         </BioSection>
       </Section>
 
@@ -149,11 +158,11 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Travelling, Kayaking,{' '}
+          Travelling, Kayaking,
           <Link href="https://auvee.itch.io/trass" target="_blank">
             Making Video Games
           </Link>
-          , Machine Learning, Problem solving
+          ,Machine Learning, Problem solving
         </Paragraph>
       </Section>
 
@@ -197,15 +206,16 @@ const Home = () => (
           Experience
         </Heading>
         <BioSection>
+          <BioYear>2023 June - Now</BioYear>
+          Full Stack Web Developer at Save The Date
+        </BioSection>
+        <BioSection>
           {/* <BioYear>Wrexa LLC</BioYear> */}
           <BioYear>2022 October - 2023 March</BioYear>
           Jr Web Developer at Wrexa LLC
         </BioSection>
+
         {/* <BioSection>
-          <BioYear>2022 (September - October)</BioYear>
-          Intern Python Developer at Adorta
-        </BioSection>
-        <BioSection>
           <BioYear>2022 (August - September)</BioYear>
           Web Developer at Sigma Tenant
         </BioSection>
