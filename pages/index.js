@@ -105,51 +105,63 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
+
         <BioSection>
-          <BioYear>2023</BioYear>
+          <BioYear>2024 - 2025</BioYear>
+          Joined Think Studio LLC as Junior Software Engineer
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2023 - 2024</BioYear>
           Joined Save The Date as Full Stack Web Developer
         </BioSection>
+
         <BioSection>
           <BioYear>2023</BioYear>
-          Completed my Bachelor's degree&apos;s in Computer Science &
-          Engineering (Expected Graduation in 2023)
-        </BioSection>
-
-        <BioSection>
-          <BioYear>2019</BioYear>
-          1st Runner Up in Robotronics 2019 - Line Follower Robot (Speed Battle)
-          at Ruet Robotronics.
-        </BioSection>
-
-        <BioSection>
-          <BioYear>2017</BioYear>
-          2nd Runner Up in Outsbook Inter School and College Programming Contest
-          (College Level).
+          Graduated with a B.Sc. in Computer Science & Engineering from
+          Bangladesh Army University of Science & Technology
         </BioSection>
 
         <BioSection>
           <BioYear>2022</BioYear>
-          General Secretary at BAUST Mechatronics and Robotics Club.
-        </BioSection>
-
-        <BioSection>
-          <BioYear>2021</BioYear>
-          Parcipated in the Robo Soccer segment at AUST Mindspark.
-        </BioSection>
-
-        <BioSection>
-          <BioYear>2017</BioYear>
-          Participated in ICT Olympiad in 3rd AUW MATH & ICT FEST 2017 at AUW
+          Joined Wrexa LLC as Full Stack Web Developer
         </BioSection>
 
         <BioSection>
           <BioYear>2019</BioYear>
-          Participated in Dhaka Regional ACM ICPC 2019
+          Participated in Dhaka Regional ACM ICPC 2019 (Team: BAUST_Codex)
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2019</BioYear>
+          2nd place in Robotronics 2019 - Line Follower (Speed Battle)
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Participated in RUET CSE FEST 2019
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2017</BioYear>
+          3rd place in Outsbook Inter School and College Programming Contest
+          (College Level)
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Participated in ICT Olympiad at 3rd AUW MATH & ICT FEST 2017
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Participated in Drishty Chittagong Junior Model United Nations
+          Conference
         </BioSection>
 
         <BioSection>
           <BioYear>2000 - June</BioYear>
-          Born in Chittagong, Bangladesh.
+          Born in Chittagong, Bangladesh
         </BioSection>
       </Section>
 
@@ -158,9 +170,9 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Travelling, Kayaking,{" "}
+          Travelling, Kayaking,{' '}
           <Link href="https://auvee.itch.io/trass" target="_blank">
-            Making Video Games{" "}
+            Making Video Games{' '}
           </Link>
           ,Machine Learning, Problem solving
         </Paragraph>
